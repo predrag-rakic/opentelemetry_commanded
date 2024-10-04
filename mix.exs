@@ -40,7 +40,7 @@ defmodule OpentelemetryCommanded.MixProject do
 
   defp deps do
     [
-      {:commanded, "~> 1.4"},
+      {:commanded, git: "git@github.com:predrag-rakic/commanded"},
       {:opentelemetry_telemetry, "~> 1.0"},
       {:telemetry, "~> 1.0"},
       {:opentelemetry, "~> 1.0"},
